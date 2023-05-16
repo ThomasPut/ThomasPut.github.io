@@ -293,6 +293,14 @@ h2 {
 
 }
 
+.CodingIcon {
+	max-width: 100px;
+	max-height: 100px;
+	display: block;
+	margin: left;
+	margin-top: -50px;
+}
+
 h3 {
 	font-size: 1.25em;
 	line-height: 1.5em;
