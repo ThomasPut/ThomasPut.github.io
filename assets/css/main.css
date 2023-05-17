@@ -344,19 +344,140 @@ hr {
 
 .CodingIcon:hover {
 	cursor: pointer;
+	transform: scale(1.2);
 }
 
 .CodingIcon:hover+.codingdes {
 	position: absolute;
 	bottom: 0;
-	left: 10px;
+	left: 0;
 	width: 100%;
 	width: fit-content;
-	padding: 8px 15px;
+	padding: 4px 15px;
 	visibility: visible;
 	opacity: 0.7;
 	opacity: 1;
+	display: block;
+
 }
+
+.codingdess {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: black;
+	color: white;
+	margin-bottom: -40px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+.CodingIcon:hover+.codingdess {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	width: 100%;
+	width: fit-content;
+	padding: 4px 15px;
+	visibility: visible;
+	opacity: 0.7;
+	opacity: 1;
+	display: block;
+
+}
+
+.codingdesss {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: black;
+	color: white;
+	margin-bottom: -40px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+.CodingIcon:hover+.codingdesss {
+	position: absolute;
+	bottom: 0;
+	left: 18px;
+	width: 100%;
+	width: fit-content;
+	padding: 4px 15px;
+	visibility: visible;
+	opacity: 0.7;
+	opacity: 1;
+	display: block;
+
+}
+
+
+.codingdessss {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: black;
+	color: white;
+	margin-bottom: -40px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+.CodingIcon:hover+.codingdessss {
+	position: absolute;
+	bottom: 0;
+	left: 4px;
+	width: 100%;
+	width: fit-content;
+	padding: 4px 15px;
+	visibility: visible;
+	opacity: 0.7;
+	opacity: 1;
+	display: block;
+
+}
+
+.codingdesssss {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: black;
+	color: white;
+	margin-bottom: -40px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	transition: visibility 0s, opacity 0.5s linear;
+
+}
+
+.CodingIcon:hover+.codingdesssss {
+	position: absolute;
+	bottom: 0;
+	left: -17px;
+	width: 100%;
+	width: fit-content;
+	padding: 4px 15px;
+	visibility: visible;
+	opacity: 0.7;
+	opacity: 1;
+	display: block;
+
+}
+
 
 
 h3 {
