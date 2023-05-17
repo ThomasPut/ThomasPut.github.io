@@ -589,9 +589,9 @@ li {
 .nav-menu {
 	display: block;
 	background: #618C81;
-	width: 951px;
+	width: 50%;
 	margin: 10px auto 10px;
-	margin-right: 100px;
+	margin-right: 5.5%;
 }
 
 .nav-menu>li {
@@ -612,11 +612,10 @@ li {
 	font-family: 'sansationregular';
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 	text-transform: capitalize;
 	overflow: visible;
-	line-height: 20px;
-	font-size: 20px;
+	line-height: 100%;
+	font-size: 100%;
 	padding: 15px 30px 15px 31px;
 }
 
