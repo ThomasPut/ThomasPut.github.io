@@ -210,13 +210,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #49bf9d;
+	color: #60e6bd;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #49bf9d !important;
+	color: #60e6bd !important;
 	text-decoration: none;
 }
 
@@ -307,6 +307,14 @@ h2 {
 
 }
 
+hr {
+	background-color: black;
+}
+
+hr {
+	background-color: black;
+}
+
 .CodingIcon {
 	position: relative;
 	margin-right: 10px;
@@ -381,7 +389,7 @@ sup {
 
 hr {
 	border: 0;
-	border-bottom: solid 2px white;
+	border-bottom: solid 2px black;
 	margin: 2em 0;
 }
 
@@ -2240,7 +2248,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #49bf9d;
+	border-color: #60e6bd;
 }
 
 select {
@@ -2345,7 +2353,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-	border-color: #49bf9d;
+	border-color: #60e6bd;
 }
 
 input[type="checkbox"]+label:before {
@@ -2868,8 +2876,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	border-color: #49bf9d;
-	color: #49bf9d !important;
+	border-color: #60e6bd;
+	color: #60e6bd !important;
 }
 
 input[type="submit"]:active,
@@ -2877,8 +2885,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
 	background-color: rgba(73, 191, 157, 0.1);
-	border-color: #49bf9d;
-	color: #49bf9d !important;
+	border-color: #60e6bd;
+	color: #60e6bd !important;
 }
 
 input[type="submit"].icon,
@@ -2921,8 +2929,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-	background-color: #49bf9d;
-	border-color: #49bf9d;
+	background-color: #60e6bd;
+	border-color: #60e6bd;
 	color: #ffffff !important;
 }
 
@@ -2930,16 +2938,16 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-	background-color: #5cc6a7;
-	border-color: #5cc6a7;
+	background-color: #60e6bd;
+	border-color: #60e6bd;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-	background-color: #3eb08f;
-	border-color: #3eb08f;
+	background-color: #60e6bd;
+	border-color: #60e6bd;
 }
 
 input[type="submit"].disabled,
@@ -3074,7 +3082,7 @@ input[type="button"]:disabled,
 }
 
 #main>section {
-	border-top: solid 2px #efefef;
+	border-top: solid 2px black;
 	margin: 4em 0 0 0;
 	padding: 4em 0 0 0;
 }
