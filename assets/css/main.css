@@ -77,7 +77,6 @@ figcaption,
 footer,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -111,7 +110,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 section {
 	display: block;
 }
@@ -590,7 +588,7 @@ li {
 	display: block;
 	background: #618C81;
 	width: 50%;
-	margin: 10px auto 10px;
+	margin: 1% auto 1%;
 	margin-right: 5.5%;
 }
 
@@ -614,9 +612,23 @@ li {
 	-moz-font-smoothing: antialiased;
 	text-transform: capitalize;
 	overflow: visible;
-	line-height: 100%;
+	line-height: 110%;
 	font-size: 100%;
 	padding: 15px 30px 15px 31px;
+}
+
+@media only screen and (max-width: 950px) {
+	.cf7_custom_style_1 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.cf7_custom_style_1 {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 /* animation domination */
